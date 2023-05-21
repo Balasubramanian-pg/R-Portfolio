@@ -1,33 +1,36 @@
-ap<-AirPassengers
-plot(ap)
-start(ap)
-end(ap)
+AP<- AirPassengers
+AP
+start(AP)
+end(AP)
+plot(AP, type="l", main="Air passengers data (1949-60)")
 abline(lm(AirPassengers~time(AirPassengers)))
-decomposed<-decompose(ap)
-plot(decomposed)
 
-#finding varaince
-variance=log(AirPassengers)
-plot(varaince, main="Difference in Variance")
-#finding mean
-mean=diff(AirPassengers)
-plot(mean, main="Difference in Mean")
+decompose(AP)
+plot(decompose(AP))
 
-#finding auto correlation factor
-acf(diff(AirPassengers))
+boxplot(AirPassengers~cycle(AirPassengers), main="Median passengers (Month-wise)")
 
-#finding partial correlation factor
-pacf(diff(AirPassengers))
+library(fpp)
+seasonplot(AirPassengers,year.labels = TRUE, year.labels.left = TRUE, 
+           col=1:15,pch=15, lwd=2)
+plot(log(AirPassengers), main="Variance in data")
 
-#building model
+plot(diff(AirPassengers), main="Mean in data")
 
-model<-arima(log(AirPassengers),c(0,1,1),seasonal = list(order=c(0,1,0),period=12))
+abline<-lm(log(AirPassengers))~time(diff(AirPassengers))
+acf(AirPassengers)
 
-#prediction
-prediction<- predict(model,48)
+acf(diff(log(AirPassengers)))
+plot(diff(log(AirPassengers)))
+
+pacf(AirPassengers)
+pacf(diff(log(AirPassengers)))
+
+model<-arima(log(AirPassengers),c(0,1,1), seasonal= list(order=c(0,1,0),period=12))
+prediction<-predict(model,48)
 prediction
 
-#converting log values in numeric
-air_prediction<-2.718 ^ prediction
-#plotting time series prediction
-ts.plot(AirPassengers,air_prediction,log="y",lty=c(1,3))
+air_predict<- 2.718^prediction
+air_predict
+
+ts.plot(AirPassengers,air_predict,log="y",lty=c(1,3))
