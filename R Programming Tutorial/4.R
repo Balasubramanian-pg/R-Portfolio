@@ -1,5 +1,0 @@
-x<-c(35,49,213,19,26)
-label<-c("money","food","ration","sun","moon")
-colour<-c("red","blue","yellow","green","pink")
-pie_percentage<-round(x*100/sum(x))
-pie(x,pie_percentage,main= "life", col = colour)
