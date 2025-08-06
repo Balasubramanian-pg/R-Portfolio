@@ -24,6 +24,144 @@ As a **junior data analyst** on Bellabeat’s marketing team, I was tasked with 
 ### **Business Task**  
 The core objective was to **analyze FitBit fitness tracker data** (from a public dataset of 30 users) to identify behavioral trends and provide **high-level recommendations** for Bellabeat’s marketing strategy.  
 
+# **Bellabeat Data Analysis Plan: 11 Key Analysis Points**
+
+Given the datasets available, we can perform a **comprehensive analysis** of user behavior to extract actionable insights for Bellabeat. Below are the **11 most critical analysis points**, along with the **questions they answer** and the **approach** to execute them.
+
+---
+
+## **1. Daily Activity Trends**  
+**Dataset:** `dailyActivity_merged.csv`  
+**Questions:**  
+- What is the average daily step count, and how does it compare to the recommended 10,000 steps?  
+- How much time do users spend sedentary vs. active?  
+- Are there patterns in activity levels (weekdays vs. weekends)?  
+
+**Approach:**  
+- Calculate **mean, median, and distribution** of steps, active minutes, and sedentary time.  
+- Visualize trends using **line charts (daily steps) and bar graphs (active vs. sedentary time)**.  
+
+---
+
+## **2. Calorie Burn Analysis**  
+**Dataset:** `dailyCalories_merged.csv`  
+**Questions:**  
+- How does calorie burn correlate with steps and activity intensity?  
+- Do users burn more calories on certain days?  
+
+**Approach:**  
+- Merge with `dailyActivity_merged.csv` to analyze **steps vs. calories**.  
+- Use **scatter plots and correlation coefficients** to identify relationships.  
+
+---
+
+## **3. Activity Intensity Breakdown**  
+**Dataset:** `dailyIntensities_merged.csv`  
+**Questions:**  
+- What percentage of users engage in light, moderate, or vigorous activity?  
+- Are there differences in intensity levels by time of day?  
+
+**Approach:**  
+- Categorize intensity levels and calculate **percentages per user**.  
+- Compare with **hourly data** to see peak activity times.  
+
+---
+
+## **4. Hourly Step Patterns**  
+**Dataset:** `hourlySteps_merged.csv`  
+**Questions:**  
+- When are users most active (morning, afternoon, evening)?  
+- Are there differences between weekdays and weekends?  
+
+**Approach:**  
+- Aggregate steps by **hour and day of the week**.  
+- Use **heatmaps or time-series plots** to visualize trends.  
+
+---
+
+## **5. Sleep Quality & Duration**  
+**Dataset:** `sleepDay_merged.csv`  
+**Questions:**  
+- How many hours do users sleep on average?  
+- Is there a link between sleep duration and daily activity?  
+
+**Approach:**  
+- Calculate **average sleep time, sleep efficiency (time asleep vs. in bed)**.  
+- Merge with `dailyActivity_merged.csv` to see if **active users sleep better**.  
+
+---
+
+## **6. Weight Tracking & BMI Trends**  
+**Dataset:** `weightLoginfo_merged.csv`  
+**Questions:**  
+- How many users track their weight consistently?  
+- Is there a correlation between activity levels and weight changes?  
+
+**Approach:**  
+- Check **data completeness** (how many users log weight).  
+- Merge with activity data to see if **more steps = weight loss trends**.  
+
+---
+
+## **7. Heart Rate & Activity Correlation**  
+**Dataset:** (If available, though not listed—otherwise inferred from intensity data)  
+**Questions:**  
+- Does higher activity intensity lead to lower resting heart rates over time?  
+
+**Approach:**  
+- If HR data exists, analyze **resting HR trends vs. activity logs**.  
+
+---
+
+## **8. Sedentary Behavior Impact**  
+**Dataset:** `dailyActivity_merged.csv`  
+**Questions:**  
+- Do users with high sedentary time have poorer sleep or higher BMI?  
+
+**Approach:**  
+- Merge with `sleepDay_merged.csv` and `weightLoginfo_merged.csv`.  
+- Use **regression analysis** to test relationships.  
+
+---
+
+## **9. User Engagement & Consistency**  
+**Datasets:** All daily/hourly logs  
+**Questions:**  
+- How many days do users actually wear their devices?  
+- Are there "drop-off" points where usage declines?  
+
+**Approach:**  
+- Track **missing data days per user** to measure engagement.  
+
+---
+
+## **10. Minute-by-Minute Activity Peaks**  
+**Dataset:** `minuteStepsWide_merged.csv`  
+**Questions:**  
+- When do users take the most steps (e.g., lunch breaks, evenings)?  
+
+**Approach:**  
+- Aggregate steps by **5-10 minute intervals** to detect micro-patterns.  
+
+---
+
+## **11. Device Usage vs. Health Outcomes**  
+**Cross-dataset analysis**  
+**Questions:**  
+- Do users who track more metrics (steps, sleep, weight) see better health improvements?  
+
+**Approach:**  
+- Identify **high-engagement users** and compare their trends vs. low-engagement users.  
+
+---
+
+## **Final Recommendations Based on Findings**  
+After conducting these analyses, we can provide Bellabeat with insights on:  
+✅ **How to improve user engagement** (e.g., reminders for inactive users).  
+✅ **Optimal times to send health nudges** (based on activity peaks).  
+✅ **Which features to emphasize in marketing** (e.g., sleep tracking if data shows poor sleep habits).  
+✅ **Potential new features** (e.g., stress tracking if gaps are found).  
+
 ---  
 
 ## **Data Preparation & Credibility Assessment**  
@@ -112,3 +250,4 @@ This analysis provides a **data-backed foundation** for Bellabeat’s marketing 
 
 ---  
 **Bottom Line:** *"Data doesn’t just inform—it transforms. By understanding how women interact with their smart devices, Bellabeat can craft experiences that don’t just track health but actively improve it."*
+
