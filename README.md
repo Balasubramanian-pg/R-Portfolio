@@ -8,9 +8,92 @@ Now you can just take it.
 
 This isn't about *learning* R in the abstract. It's about getting you from zero to dangerous, fast. Whether you're a beginner who wants a shortcut or an expert who wants to move faster, this playbook has assets you can deploy immediately.
 
-No fluff. No academic nonsense. Just tools that solve real problems.
-
 ---
+
+# R Portfolio Projects - Index
+
+This repository contains R programming projects and datasets for data analysis. Below is the index of all projects and files with direct links.
+
+## Bank Customer Churn Prediction
+- [Bank Customer Churn Prediction.csv](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Bank%20Customer%20Churn%20Prediction/Bank%20Customer%20Churn%20Prediction.csv)
+
+## Bellabeat Analysis
+- [Case Study with Rstudio Bellabeat.ipynb](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Bellabeat%20Analysis/Case%20Study%20with%20Rstudio%20Bellabeat.ipynb)
+- [Problem Statement & Approach.md](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Bellabeat%20Analysis/Problem%20Statement%20%26%20Approach.md)
+
+## Covid Analysis
+- [Problem Statement & Approach.md](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Covid%20Analysis/Problem%20Statement%20%26%20Approach.md)
+
+## Google Bikeshare Navigate
+- [google-case-study-bikeshare-navigate-success.ipynb](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Google%20Bikeshare%20Navigate/google-case-study-bikeshare-navigate-success.ipynb)
+- [Problem Statement & Approach Note.md](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Google%20Bikeshare%20Navigate/Problem%20Statement%20%26%20Approach%20Note.md)
+
+## Mustang and Camaro Sales Analysis
+- [mustang-vs-camaro-sales.ipynb](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Mustang%20and%20Camaro%20Sales%20Analysis/mustang-vs-camaro-sales.ipynb)
+
+## R Programming Tutorial
+- [Data Analysis in R with Rstudio & Tidyverse.pdf](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/R%20Programming%20Tutorial/Data%20Analysis%20in%20R%20with%20Rstudio%20%26%20Tidyverse.pdf)
+
+## R Studio Academic Notes
+- [A Beginner's Guide.ipynb](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/R%20Studio%20Academic%20Notes/A%20Beginner's%20Guide.ipynb)
+- [After First Internal.R](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/R%20Studio%20Academic%20Notes/After%20First%20Internal.R)
+- [CLASS.R](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/R%20Studio%20Academic%20Notes/CLASS.R)
+- [The Ultimate R Guide Book.docx](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/R%20Studio%20Academic%20Notes/The%20Ultimate%20R%20Guide%20Book.docx)
+
+## Rayshader Project
+- [Population Density Visualization.md](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Rayshader%20Project/Population%20Density%20Visualization.md)
+- [Read me.md](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Rayshader%20Project/Read%20me.md)
+
+## Reference Guides (Direction)
+- [Using R.pdf](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Reference%20Guides%20(Direction)/Using%20R.pdf)
+
+## Rstudio 101 (Semester 3)
+- [Guide](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Rstudio%20101%20(Semester%203)/Guide)
+
+## Spooky Author Identification
+- [test.csv](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Spooky%20Author%20Identification/test.csv)
+- [train.csv](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Spooky%20Author%20Identification/train.csv)
+
+## Test Dataset
+- [Global Superstore Orders 2016.csv](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Test%20Dataset/Global%20Superstore%20Orders%202016.csv)
+- [PercentagePeopleBelowPovertyLevel.csv](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Test%20Dataset/PercentagePeopleBelowPovertyLevel.csv)
+- [Test data.txt](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Test%20Dataset/Test%20data.txt)
+- [dividendinfo.csv](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Test%20Dataset/dividendinfo.csv)
+- [fitnessAppLog.csv](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Test%20Dataset/fitnessAppLog.csv)
+- [lung_data.txt](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Test%20Dataset/lung_data.txt)
+
+## Top Performing Stocks in India
+- [10_AXISBANK.NS.csv](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Top%20Performing%20Stocks%20in%20India/10_AXISBANK.NS.csv)
+- [11_NTPC.NS.csv](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Top%20Performing%20Stocks%20in%20India/11_NTPC.NS.csv)
+- [12_LT.NS.csv](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Top%20Performing%20Stocks%20in%20India/12_LT.NS.csv)
+- [13_INFY.NS.csv](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Top%20Performing%20Stocks%20in%20India/13_INFY.NS.csv)
+- [14_JSWSTEEL.NS.csv](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Top%20Performing%20Stocks%20in%20India/14_JSWSTEEL.NS.csv)
+- [15_VEDL.NS.csv](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Top%20Performing%20Stocks%20in%20India/15_VEDL.NS.csv)
+- [16_BPCL.NS.csv](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Top%20Performing%20Stocks%20in%20India/16_BPCL.NS.csv)
+- [17_KOTAKBANK.NS.csv](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Top%20Performing%20Stocks%20in%20India/17_KOTAKBANK.NS.csv)
+- [18_HINDALCO.NS.csv](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Top%20Performing%20Stocks%20in%20India/18_HINDALCO.NS.csv)
+- [19_BHARTIARTL.NS.csv](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Top%20Performing%20Stocks%20in%20India/19_BHARTIARTL.NS.csv)
+- [1_RELIANCE.NS.csv](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Top%20Performing%20Stocks%20in%20India/1_RELIANCE.NS.csv)
+- [20_COALINDIA.NS.csv](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Top%20Performing%20Stocks%20in%20India/20_COALINDIA.NS.csv)
+- [2_SBIN.NS.csv](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Top%20Performing%20Stocks%20in%20India/2_SBIN.NS.csv)
+- [3_HDFCBANK.NS.csv](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Top%20Performing%20Stocks%20in%20India/3_HDFCBANK.NS.csv)
+- [4_ICICIBANK.NS.csv](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Top%20Performing%20Stocks%20in%20India/4_ICICIBANK.NS.csv)
+- [5_ONGC.NS.csv](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Top%20Performing%20Stocks%20in%20India/5_ONGC.NS.csv)
+- [6_HDFC.NS.csv](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Top%20Performing%20Stocks%20in%20India/6_HDFC.NS.csv)
+- [7_IOC.NS.csv](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Top%20Performing%20Stocks%20in%20India/7_IOC.NS.csv)
+- [8_TCS.NS.csv](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Top%20Performing%20Stocks%20in%20India/8_TCS.NS.csv)
+- [9_TATASTEEL.NS.csv](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Top%20Performing%20Stocks%20in%20India/9_TATASTEEL.NS.csv)
+
+## Week 1 - Data analysis of Crypto Tokens
+- [Basic.csv](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Week%201%20-%20Data%20analysis%20of%20Crypto%20Tokens/Basic.csv)
+- [basic.json](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Week%201%20-%20Data%20analysis%20of%20Crypto%20Tokens/basic.json)
+- [basic1.xml](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Week%201%20-%20Data%20analysis%20of%20Crypto%20Tokens/basic1.xml)
+- [basic2.csv](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Week%201%20-%20Data%20analysis%20of%20Crypto%20Tokens/basic2.csv)
+- [basic3.csv](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Week%201%20-%20Data%20analysis%20of%20Crypto%20Tokens/basic3.csv)
+- [payment.csv](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Week%201%20-%20Data%20analysis%20of%20Crypto%20Tokens/payment.csv)
+
+## Wine Quality Red
+- [wine-quality-84-accuracy.ipynb](https://github.com/Balasubramanian-pg/R-Portfolio/blob/main/Wine%20Quality%20Red/wine-quality-84-accuracy.ipynb)
 
 ### **Here’s What You Get**
 
